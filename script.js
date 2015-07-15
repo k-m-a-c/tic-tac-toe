@@ -10,6 +10,8 @@ $(document).ready(function() {
       $(this).css("background-color", "teal").text("O");
     }
 
+    $(this).off("click");
     turn ++;
+
   });
 });
