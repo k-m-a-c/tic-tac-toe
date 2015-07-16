@@ -6,7 +6,7 @@
 
   <!-- JAVASCRIPTS -->
   <script src="jquery-2.1.4.min.js"></script>
-  <script src="script.js"></script>
+  <script src="tictactoe.js"></script>
 
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="style.css" type="text/css">
@@ -16,21 +16,21 @@
 
   <table>
     <tr class="top">
-      <td class="top, left, left-diagonal"></td>
-      <td class="top, centre"></td>
-      <td class="top, right, right-diagonal"></td>
+      <td class="square" id="topLeft"></td>
+      <td class="square" id="topCentre"></td>
+      <td class="square" id="topRight"></td>
     </tr>
 
     <tr class="middle">
-      <td class="middle, left"></td>
-      <td class="middle, centre, left-diagonal, right-diagonal"></td>
-      <td class="middle, right"></td>
+      <td class="square" id="middleLeft"></td>
+      <td class="square" id="middleCentre"></td>
+      <td class="square" id="middleRight"></td>
     </tr>
 
     <tr class="bottom">
-      <td class="bottom, left, right-diagonal"></td>
-      <td class="bottom, centre"></td>
-      <td class="bottom, right, left-diagonal"></td>
+      <td class="square" id="bottomLeft"></td>
+      <td class="square" id="bottomCentre"></td>
+      <td class="square" id="bottomRight"></td>
     </tr>
   </table>
 
